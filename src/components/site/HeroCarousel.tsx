@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
-import hero1 from "@/assets/hero-1.jpg.asset.json";
-import hero2 from "@/assets/hero-2.jpg.asset.json";
-import hero3 from "@/assets/hero-3.jpg.asset.json";
-import hero4 from "@/assets/hero-4.jpg.asset.json";
+import hero1 from "@/assets/hero-1.jpg";
+import hero2 from "@/assets/hero-2.jpg";
+import hero3 from "@/assets/hero-3.jpg";
+import hero4 from "@/assets/hero-4.jpg";
 
 const slides = [
-  { src: hero1.url, alt: "Sunrise houseboat drifting through Alleppey backwaters" },
-  { src: hero2.url, alt: "Remote worker on a Kerala houseboat verandah at dawn" },
-  { src: hero3.url, alt: "Bamboo balcony cafe overlooking Varkala's cliffs and sea" },
-  { src: hero4.url, alt: "Chinese fishing nets and bougainvillea at Fort Kochi sunset" },
+  { src: hero1, alt: "Sunrise houseboat drifting through Alleppey backwaters" },
+  { src: hero2, alt: "Remote worker on a Kerala houseboat verandah at dawn" },
+  { src: hero3, alt: "Bamboo balcony cafe overlooking Varkala's cliffs and sea" },
+  { src: hero4, alt: "Chinese fishing nets and bougainvillea at Fort Kochi sunset" },
 ];
 
 export function HeroCarousel() {

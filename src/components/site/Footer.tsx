@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useSiteContent } from "@/lib/site-content";
-import logoAsset from "@/assets/nomzy-logo.png.asset.json";
+import logoAsset from "@/assets/nomzy-logo.png";
 
 export function Footer() {
   const { data: s } = useSiteContent("settings");
@@ -11,7 +11,7 @@ export function Footer() {
     <footer className="bg-primary text-primary-foreground mt-32">
       <div className="container-editorial py-20 grid md:grid-cols-5 gap-12">
         <div className="md:col-span-2">
-          <img src={logoAsset.url} alt={`${s.brand} ${s.brandSuffix}`} className="h-40 w-auto" />
+          <img src={logoAsset} alt={`${s.brand} ${s.brandSuffix}`} className="h-40 w-auto" />
           <p className="mt-6 max-w-sm text-sm text-primary-foreground/70 leading-relaxed">
             {s.footerTagline}
           </p>

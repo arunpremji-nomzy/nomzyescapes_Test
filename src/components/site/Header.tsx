@@ -1,7 +1,7 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import logoAsset from "@/assets/nomzy-logo.png.asset.json";
+import logoAsset from "@/assets/nomzy-logo.png";
 import { useSiteContent } from "@/lib/site-content";
 
 const baseNav = [
@@ -47,7 +47,7 @@ export function Header() {
         >
           <Link to="/" className="flex items-center shrink-0" aria-label="Nomzy Escapes home">
             <img
-              src={logoAsset.url}
+              src={logoAsset}
               alt="Nomzy Escapes"
               className={`h-auto transition-all duration-[350ms] ease-out ${
                 scrolled

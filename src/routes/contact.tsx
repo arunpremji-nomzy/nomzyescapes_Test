@@ -4,13 +4,10 @@ import { ArrowRight, Check, Wifi, MapPin, Users, Sparkles, Compass, ChevronDown 
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 import { useSiteContent, defaultContent } from "@/lib/site-content";
-import alleppeyAsset from "@/assets/dest-alleppey.jpg.asset.json";
-import fortKochiAsset from "@/assets/dest-fortkochi.jpg.asset.json";
-import varkalaAsset from "@/assets/dest-varkala.jpg.asset.json";
-const heroImg = alleppeyAsset.url;
-const fortKochi = fortKochiAsset.url;
-const varkala = varkalaAsset.url;
-const alleppey = alleppeyAsset.url;
+import heroImg from "@/assets/dest-alleppey.jpg";
+import fortKochi from "@/assets/dest-fortkochi.png";
+import varkala from "@/assets/dest-varkala.jpg";
+import alleppey from "@/assets/dest-alleppey.jpg";
 import workspace from "@/assets/property-workspace.jpg?format=webp&quality=72&w=1400";
 import keralaHero from "@/assets/hero-kerala.jpg?format=webp&quality=72&w=1400";
 

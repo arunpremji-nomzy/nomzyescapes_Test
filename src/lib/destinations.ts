@@ -1,9 +1,6 @@
-import fortkochiAsset from "@/assets/dest-fortkochi.jpg.asset.json";
-import varkalaAsset from "@/assets/dest-varkala.jpg.asset.json";
-import alleppeyAsset from "@/assets/dest-alleppey.jpg.asset.json";
-const fortkochi = fortkochiAsset.url;
-const varkala = varkalaAsset.url;
-const alleppey = alleppeyAsset.url;
+import fortkochi from "@/assets/dest-fortkochi.png";
+import varkala from "@/assets/dest-varkala.jpg";
+import alleppey from "@/assets/dest-alleppey.jpg";
 
 export type Destination = {
   slug: "fort-kochi" | "varkala" | "alleppey";
