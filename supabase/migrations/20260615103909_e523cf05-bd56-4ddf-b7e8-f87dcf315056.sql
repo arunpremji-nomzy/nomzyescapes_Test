@@ -1,0 +1,2 @@
+ALTER TABLE public.properties ADD COLUMN IF NOT EXISTS images text[] NOT NULL DEFAULT '{}';
+UPDATE public.properties SET images = ARRAY[image_url] WHERE image_url IS NOT NULL AND (images IS NULL OR cardinality(images) = 0);

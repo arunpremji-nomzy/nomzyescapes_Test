@@ -1,0 +1,13 @@
+# Nomzy Escapes
+
+> Curated workation stays and immersive Kerala experiences for remote professionals — Fort Kochi, Varkala, and Alleppey.
+
+Nomzy Escapes hand-picks homes with verified high-speed WiFi, dedicated workspaces, and on-the-ground local support so remote workers can stay productive while living slow in Kerala.
+
+## Pages
+
+- [Home](/): Overview of the Nomzy Escapes workation experience across Kerala.
+- [Properties](/properties): Browse all curated workation stays and homes.
+- [Destinations](/destinations): Fort Kochi, Varkala, and Alleppey guides.
+- [Experiences](/experiences): Surf, yoga, backwaters, food, and culture.
+- [Contact](/contact): Reach the Nomzy Escapes team.
